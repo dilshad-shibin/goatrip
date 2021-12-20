@@ -96,29 +96,55 @@
         $.preventDefault();
     });
 
-    // :: 7.0 BRANDING SLIDER ACTIVE CODE
-    $('.branding-slider.owl-carousel').owlCarousel({
+    // :: 7.0 OFFER SLIDER ACTIVE CODE
+    $('.offer-slider.owl-carousel').owlCarousel({
         loop: true,
-        margin: 20,
+        margin: 0,
         nav: false,
-        dots: false,
+        dots: true,
         smartSpeed: 2000,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 4000,
         responsive: {
             0: {
-                items: 2
+                items: 1.5
             },
             576: {
-                items: 3
+                items: 1.5
             },
             768: {
-                items: 4
+                items: 1.5
             },
             992: {
-                items: 5
+                items: 1.5
             }
         }
     });
+
+    // :: 7.0 OFFER SLIDER ACTIVE CODE
+    $('.sight-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        dots: false,
+        smartSpeed: 2000,
+        autoplay: false,
+        autoplayTimeout: 4000,
+        responsive: {
+            0: {
+                items: 1.2
+            },
+            576: {
+                items: 2
+            },
+            768: {
+                items: 2.1
+            },
+            992: {
+                items: 2.1
+            }
+        }
+    });
+    
 
 }(jQuery));
