@@ -220,7 +220,7 @@
         left: 0;
         height: 100%;
         width: 0;
-        background: #fff;
+        background: rgba(0,0,0,.8);
         z-index: 3;
         opacity: 0;
         visibility: hidden;
@@ -470,9 +470,9 @@
 }
 
 @media (max-width: 991px) {
-    .welcome-area {
+    /* .welcome-area {
         height: 700px !important;
-    }
+    } */
 
     .welcome-intro > h3 {
         font-size: 28px;
@@ -482,7 +482,6 @@
 @media (max-width: 767px) {
     .welcome-area {
         height: 100% !important;
-        padding-top: 90px;
     }
 
     .homepage-5 .welcome-area {
@@ -741,9 +740,33 @@
     .preview-area .section-heading {
         margin-bottom: 30px;
     }
-
     .preview-area .single-preview {
         margin-top: 20px;
+    }
+    .right-side .inner-content .head-tp .head{
+        margin-right: 55px;
+    }
+    .single-offer{
+        padding: 8px;
+    }
+    .navbar.navbar-dark .navbar-nav .nav-link{
+        color: #000;
+    }
+    .left-side .inner-content{
+        padding-left: 120px;
+    }
+    .left-side h1{
+        font-size: 50px;
+    }
+    .package-row{
+        padding: 40px 15px;
+    }
+    .package-img img{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .package-content2{
+        margin-bottom: 40px;
     }
 }
 
@@ -751,16 +774,111 @@
     .preview .welcome-area {
         height: 580px !important;
     }
+    .welcome-area{
+        flex-direction: column;
+    }
+    .left-side .inner-content{
+        padding-left: 120px;
+        padding-top: 155px;
+        padding-bottom: 155px
+    }
+    .right-side .inner-content{
+        padding-top: 50px;
+        padding-bottom: 70px;   
+    }
+    .right-side .head-tp .scroll{
+        display: none;
+    }
+    .right-side .inner-content .head-tp .head h2{
+        font-size: 28px;
+    }
+    .offer-slider{
+        display: none !important;
+    }
+    .offer-slider-mobile{
+        display: block;
+        margin-bottom: 40px;
+    }
+    .mobile-row .col-box{
+        flex: 0 0 50%;
+    }
+    .offer-slider-mobile .img img{
+        border-radius: 15px;
+        margin-bottom: 20px;
+        max-width: 225px;
+    }
+    .right-side .inner-content .head-tp{
+        margin-bottom: 45px;
+    }
+    .offer-slider-mobile .text h3{
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .offer-slider-mobile .text p{
+        color: #fffc;
+    }
 }
 
 @media (max-width: 575px) {
     .preview .welcome-area {
         height: 550px !important;
     }
-
+    .left-side .inner-content{
+        padding-left: 20px;
+    }
+    .left-side h1{
+        font-size: 45px;
+    }
     .preview .badge-light {
         font-size: 14px;
         padding-left: .4em;
         padding-right: .4em;
+    }
+    .right-side .inner-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .right-side .inner-content .head-tp{
+        justify-content: center;
+    }
+    .right-side .inner-content .head-tp .head{
+        margin-right: 0;
+    }
+    .right-side .inner-content .head-tp .head h2{
+        text-align: center;
+    }
+    .mobile-row .col-box{
+        flex: 0 0 100%;
+        text-align: center;
+    }
+    .round-circle{
+        top: -100px;
+    }
+    .activities-area{
+        padding: 10px 0;
+    }
+    .activities-bg{
+        height: 480px;
+    }
+    .activities-bg .inner-bg h1{
+        font-size: 45px;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-style: italic;
+        margin-bottom: 50px;
+        color: rgba(255, 255, 255, 1);
+        line-height: .8;
+    }
+    .activities-bg .inner-bg h1 span {
+        font-size: 28px;
+    }
+    .activities-bg .inner-bg{
+        position: absolute;
+        bottom: 65px;
+        left: 30px;
+    }
+    .sight-head {
+        margin-bottom: 40px;
     }
 }
