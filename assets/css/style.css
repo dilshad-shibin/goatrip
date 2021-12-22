@@ -252,7 +252,19 @@ img {
 .navbar.navbar-dark .navbar-nav .nav-link.active,
 .navbar.navbar-dark .navbar-nav .nav-link.current-menu-item {
     color: #F7CE04;
+    position: relative;
 }
+
+/* .navbar.navbar-dark .navbar-nav .nav-link.active::before{
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    width: 63%;
+    height: 1px;
+    left: 50%;
+    bottom: 24px;
+    transform: translate(-50%,-50%);
+} */
 
 .navbar .navbar-brand-sticky {
     display: none;

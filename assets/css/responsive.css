@@ -779,8 +779,6 @@
     }
     .left-side .inner-content{
         padding-left: 120px;
-        padding-top: 155px;
-        padding-bottom: 155px
     }
     .right-side .inner-content{
         padding-top: 50px;
@@ -828,7 +826,7 @@
         padding-left: 20px;
     }
     .left-side h1{
-        font-size: 45px;
+        font-size: 38px;
     }
     .preview .badge-light {
         font-size: 14px;
@@ -838,6 +836,7 @@
     .right-side .inner-content{
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 100px;
     }
     .right-side .inner-content .head-tp{
         justify-content: center;
@@ -880,5 +879,20 @@
     }
     .sight-head {
         margin-bottom: 40px;
+    }
+    .left-side .inner-content{
+        height: 100vh;
+    }
+    .offer-slider-mobile .img img{
+        max-width: 320px;
+    }
+    .right-side .inner-content .head-tp .head h2{
+        font-size: 40px;
+    }
+    .right-side .inner-content .head-tp{
+        margin-bottom: 65px;
+    }
+    .order-575{
+        order: 2;
     }
 }
