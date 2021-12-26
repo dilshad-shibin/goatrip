@@ -816,6 +816,9 @@
     .offer-slider-mobile .text p{
         color: #fffc;
     }
+    .about-ft{
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -861,16 +864,15 @@
         height: 480px;
     }
     .activities-bg .inner-bg h1{
-        font-size: 45px;
+        font-size: 25px;
         text-transform: uppercase;
-        font-weight: 800;
-        font-style: italic;
+        font-weight: 700;
         margin-bottom: 50px;
         color: rgba(255, 255, 255, 1);
-        line-height: .8;
+        line-height: 1.2;
     }
     .activities-bg .inner-bg h1 span {
-        font-size: 28px;
+        font-size: 20px;
     }
     .activities-bg .inner-bg{
         position: absolute;
@@ -894,5 +896,15 @@
     }
     .order-575{
         order: 2;
+    }
+    .testi-area .container-testi{
+        width: 90%;
+    }
+    .single-testi p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .single-testi .details p{
+        font-size: 15px;
     }
 }

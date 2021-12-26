@@ -6,6 +6,11 @@
 :: 6.0 SCROLL TO TOP AREA CSS
 :: 7.0 HEADER AREA CSS
 :: 8.0 WELCOME AREA CSS
+:: 9.0 PACKAGE AREA CSS
+:: 10.0 SIGHT SEEING AREA CSS
+:: 11.0 ACTIVITIES AREA CSS
+:: 12.0 TESTIMONIALS AREA CSS
+:: 13.0 FOOTER AREA CSS
 ****************************** */
 
 /* ******************************
@@ -722,7 +727,7 @@ img {
 }
 
 .activities-bg{
-    background-image: url(../img/bg/activities-bg.png);
+    background-image: url(../img/bg/diving.jpg);
     background-size: cover;
     background-position: center;
     height: 520px;
@@ -732,29 +737,226 @@ img {
 .activities-bg .inner-bg{
     position: absolute;
     bottom: 65px;
-    left: 50px;
+    left: 110px;
 }
 
 .activities-bg .inner-bg h1{
-    font-size: 60px;
+    font-size: 45px;
     text-transform: uppercase;
-    font-weight: 800;
-    font-style: italic;
+    font-weight: 700;
     margin-bottom: 40px;
     color: rgba(255, 255, 255, 1);
-    line-height: .7;
+    line-height: 1;
 }
 
 .activities-bg .inner-bg h1 span{
     font-size: 30px;
+    font-weight: 400;
+    text-transform: none;
 }
 
 .activities-bg .inner-btn a{
-    background-color: rgba(255, 255, 255, 1);
-    color: rgba(0, 0, 0, 1);
-    padding: 6px 33px;
-    font-size: 20px;
+    color: #fff;
+    padding: 8px 18px;
+    border: 2px solid rgba(255, 255, 255, 0.46);
+    font-size: 16px;
     font-weight: 500;
     border-radius: 4px;
 }
 
+.activities-bg .inner-btn a img{
+    max-width: 25px;
+    margin-left: 15px;
+}
+
+.activities-bg-one{
+    background-image: url(../img/bg/beach.jpg);
+    margin-top: 5px;
+}
+
+.activities-bg-two{
+    background-image: url(../img/bg/rave-clubs.jpg);
+    margin-top: 5px;
+}
+
+.activities-bg-three{
+    background-image: url(../img/bg/shopping.jpg);
+    margin-top: 5px;
+}
+
+/* ******************************
+:: 12.0 TESTIMONIALS AREA CSS
+****************************** */
+.testi-area{
+    padding: 50px 0 100px;
+}
+
+.testi-head p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.testi-area .container-testi{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.testi-head{
+    margin-bottom: 80px;
+}
+
+.testi-subhead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.left-side-testi a{
+    color: #3C3C43;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.right-side-testi .scroll button {
+    background-color: transparent;
+    border: none;
+}
+
+.right-side-testi .scroll button .left-arrow {
+    transform: rotate(
+180deg);
+    opacity: 50%;
+}
+
+.right-side-testi .scroll span {
+    color: rgba(0, 0, 0, 1);
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.single-testi{
+    text-align: center;
+}
+
+.single-testi p{
+    color: rgba(0, 0, 0, 1);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+.single-testi .details h3{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.single-testi .details p{
+    color: rgba(60, 60, 67, 0.5);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* ******************************
+:: 13.0 FOOTER AREA CSS
+****************************** */
+.footer-area{
+    background-color: #000000;
+    padding: 100px 0 20px;
+}
+
+.about-ft h3{
+    margin-bottom: 30px;
+}
+.about-ft{
+    max-width: 500px;
+}
+
+.about-ft h3 a{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.about-ft p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.address-ft h4{
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.address-ft p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.address-ft a.no-ft{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.address-ft ul.social{
+    display: flex;
+    margin-top: 18px;
+}
+
+.address-ft ul li{
+    margin-right: 10px;
+}
+
+.address-ft ul li a img{ 
+    color: #fff;
+    width: 22px;
+    height: 22px;
+}
+
+.address-ft ul{
+    margin-bottom: 30px;
+}
+
+.address-ft .map a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 20px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 6px;
+}
+
+.address-ft .map a img{
+    max-width: 22px;
+    margin-left: 15px;
+}
+
+.copy-right-area{
+    padding: 100px 0 30px; 
+}
+
+.copy-right-area p{
+    color: rgba(255, 255, 255, 0.79);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.copy-right-area p a{
+    color: rgba(255, 255, 255, 0.79);
+    font-size: 13px;
+    font-weight: 500;
+}

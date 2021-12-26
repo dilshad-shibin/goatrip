@@ -137,6 +137,31 @@
             }
         }
     });
+
+    // :: 7.0 TESTI SLIDER ACTIVE CODE
+    $('.testi-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        dots: false,
+        smartSpeed: 2000,
+        autoplay: false,
+        autoplayTimeout: 4000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 1
+            },
+            768: {
+                items: 1
+            },
+            992: {
+                items: 1
+            }
+        }
+    });
     
 
 }(jQuery));
