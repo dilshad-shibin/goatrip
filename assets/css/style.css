@@ -11,6 +11,7 @@
 :: 11.0 ACTIVITIES AREA CSS
 :: 12.0 TESTIMONIALS AREA CSS
 :: 13.0 FOOTER AREA CSS
+:: 14.0 PACKAGE PAGE CSS
 ****************************** */
 
 /* ******************************
@@ -959,4 +960,59 @@ img {
     color: rgba(255, 255, 255, 0.79);
     font-size: 13px;
     font-weight: 500;
+}
+
+/* ******************************
+:: 14.0 PACKAGE PAGE CSS
+****************************** */
+.package-page{
+    background-image: url(../img/about-page/about-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 460px;
+    width: 100%;
+}
+.single-pg{
+    height: 460px;
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    left: 40%;
+}
+
+.single-pg p{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.single-pg h1{
+    font-size: 56px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.pg-slider .owl-nav button.owl-prev{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    width: 55px;
+    height: 55px;
+}
+
+.pg-slider .owl-nav button.owl-next{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    width: 55px;
+    height: 55px;
+}
+
+.pg-slider .owl-nav button span{
+    color: #fff;
+    font-size: 55px;
 }

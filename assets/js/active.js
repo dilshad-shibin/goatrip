@@ -163,5 +163,30 @@
         }
     });
     
+    // :: 7.0 package page SLIDER ACTIVE CODE
+    $('.pg-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        dots: false,
+        smartSpeed: 2000,
+        autoplay: false,
+        autoplayTimeout: 4000,
+        navigationText: ["<img src='assets/img/bg/right-arrow.png'>","<img src='assets/img/bg/right-arrow.png'>"],
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 1
+            },
+            768: {
+                items: 1
+            },
+            992: {
+                items: 1
+            }
+        }
+    });
 
 }(jQuery));
