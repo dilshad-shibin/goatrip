@@ -990,4 +990,17 @@
         font-size: 60px;
         top: -40px;
     }
+    .top-about-baloon{
+        right: -8%;
+    }
+    .about-inner h3{
+        font-size: 35px;
+    }
+    .about-inner p{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .bg-overlay-sightseeing{
+        background: rgba(0, 0, 0, 0.50);
+    }
 }
