@@ -35,6 +35,17 @@
     .res-margin {
         margin-bottom: 45px;
     }
+    .sightseeing-pg{
+        margin-bottom: 50px;
+    }
+    .package-section{
+        border-left: none;
+        padding-left: 0;
+    }
+    .package-section .head h2{
+        font-size: 22px;
+        font-weight: 600;
+    }
 }
 
 @media (max-width: 767px) {
@@ -906,5 +917,67 @@
     }
     .single-testi .details p{
         font-size: 15px;
+    }
+    .package-page{
+        height: 300px;
+    }
+    .single-pg{
+        height: 300px;
+        display: flex !important;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        top: 50%;
+    }
+    .single-pg p{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .single-pg h1{
+        font-size: 35px;
+    }
+    .deal-section h1{
+        font-size: 24px;
+    }
+    .rate-box .inner-box{
+        padding: 12px 12px 12px 12px;
+    }
+    .rate-box .inner-box p{
+        line-height: 16px;
+        font-size: 12px;
+    }
+    .rate-box .inner-box h3{
+        margin-bottom: 5px;
+    }
+    .room-box{
+        padding: 0;
+    }
+    .rooms-area h2{
+        margin-bottom: 20px;
+    }
+    .check-in h2{
+        font-size: 26px;
+    }
+    .head-sight .name h3{
+        font-size: 18px;
+    }
+    .sight-slider2 .name p{
+        margin-top: 12px;
+        padding-left: 0;
+    }
+    .package-section .head h2{
+        font-size: 16px;
+    }
+    .check-in {
+        margin-top: 30px;
+    }
+    .deal-section p{
+        margin-bottom: 30px;
+    }
+    .navbar-toggler-icon{
+        height: 2px;
     }
 }
