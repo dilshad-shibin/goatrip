@@ -980,4 +980,14 @@
     .navbar-toggler-icon{
         height: 2px;
     }
+    .single-sightseeing h1{
+        font-size: 28px;
+    }
+    .single-sightseeing{
+        align-items: flex-start;
+    }
+    .banner-arrow a svg{
+        font-size: 60px;
+        top: -40px;
+    }
 }
