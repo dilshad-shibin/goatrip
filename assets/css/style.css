@@ -1280,7 +1280,7 @@ img {
 }
 
 .banner-arrow{
-    transform: rotate(90deg);
+    transform: rotate(0deg);
     position: relative;
 }
 
@@ -1289,6 +1289,10 @@ img {
     font-size: 100px;
     position: absolute;
     top: -70px;
+}
+
+.banner-arrow a img{
+    max-width: 40px;
 }
 
 .single-sightseeing h1{

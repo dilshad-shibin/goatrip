@@ -1003,4 +1003,7 @@
     .bg-overlay-sightseeing{
         background: rgba(0, 0, 0, 0.50);
     }
+    .banner-arrow a img{
+        max-width: 20px;
+    }
 }
