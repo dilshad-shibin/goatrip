@@ -779,6 +779,17 @@
     .package-content2{
         margin-bottom: 40px;
     }
+    .navbar-inner{
+        background-color: #212529;
+    }
+    .navbar .nav-link{
+        border-bottom: none;
+    }
+    .navbar.navbar-dark .navbar-nav .nav-link{
+        color: #fff;
+        padding-bottom: 1.25rem;
+        padding-left: 2.25rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -826,6 +837,7 @@
     }
     .offer-slider-mobile .text p{
         color: #fffc;
+        font-size: 15px;
     }
     .about-ft{
         margin-bottom: 50px;
@@ -840,7 +852,7 @@
         padding-left: 20px;
     }
     .left-side h1{
-        font-size: 38px;
+        font-size: 45px;
     }
     .preview .badge-light {
         font-size: 14px;
@@ -981,7 +993,7 @@
         height: 2px;
     }
     .single-sightseeing h1{
-        font-size: 28px;
+        font-size: 32px;
     }
     .single-sightseeing{
         align-items: flex-start;
