@@ -842,6 +842,9 @@
     .about-ft{
         margin-bottom: 50px;
     }
+    .about-img{
+        margin-top: 30px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -1017,5 +1020,11 @@
     }
     .banner-arrow a img{
         max-width: 20px;
+    }
+    .group-list{
+        flex-direction: column;
+    }
+    .sight-seeing-about{
+        padding: 80px 0 80px !important;
     }
 }

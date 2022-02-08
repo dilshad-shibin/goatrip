@@ -1339,19 +1339,95 @@ img {
     font-family: 'Reenie Beanie', cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 45px;
     line-height: 37px;
     color: #000;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+}
+
+.about-inner h1{
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 500
 }
 
 .about-inner p{
-    font-size: 22px;
-    color: #000;
+    font-size: 18px;
+    color: #000000c9;
     font-weight: 400;
-    line-height: 39px;
+    line-height: 32px;
     max-width: 850px;
 }
+
+.group-list{
+    margin-top: 20px;
+}
+
+.group-list .about-us-list{
+    width: 220px;
+}
+
+.group-list .about-us-list li{
+    padding: 5px 0;
+}
+
+.group-list .about-us-list li p{
+    position: relative;
+    margin-bottom: 0;
+}
+
+.group-list .about-us-list li p i{
+    color: #c6c6c6;
+    font-size: 12px;
+}
+
+.about-activities{
+    background-image: url(../img/about/img-15.jpeg);
+    padding: 100px 0 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.about-activities::before{
+    background: rgba(0, 0, 0, .85);
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.activity-block{
+    margin-bottom: 50px;
+}
+
+.activity-block img{
+    max-width: 55px;
+    margin-bottom: 10px;
+}
+
+.activity-block h3{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+/* .group-list .about-us-list li p::after{
+    position: absolute;
+    font-family: 'FontAwesome';
+    content: '\f061';
+    left: 0;
+    color: #c6c6c6;
+    font-size: 12px;
+} */
 
 .top-about-baloon{
     position: absolute;
