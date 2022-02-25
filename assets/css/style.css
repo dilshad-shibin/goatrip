@@ -714,6 +714,22 @@ img {
     opacity: 50%;
 }
 
+.sight-slider .owl-nav{
+    position: absolute;
+    right: 100px;
+    top: -60px;
+}
+
+.sight-slider .owl-nav .owl-prev img{
+    margin-right: 8px;
+    transform: rotate(180deg);
+    opacity: 50%;
+}
+
+.sight-slider .owl-nav .owl-next img{
+    margin-left: 8px;
+}
+
 /* ******************************
 :: 11.0 ACTIVITIES AREA CSS
 ****************************** */

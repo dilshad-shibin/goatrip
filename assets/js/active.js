@@ -116,12 +116,16 @@
     // :: 7.0 OFFER SLIDER ACTIVE CODE
     $('.sight-slider.owl-carousel').owlCarousel({
         loop: true,
-        margin: 0,
+        margin: 10,
         nav: true,
         dots: false,
         smartSpeed: 2000,
         autoplay: false,
         autoplayTimeout: 4000,
+        navText: [
+            "<img src='assets/img/right-black-arrow.png'> Scroll",
+            "<img src='assets/img/right-black-arrow.png'>"
+        ],
         responsive: {
             0: {
                 items: 1.2
