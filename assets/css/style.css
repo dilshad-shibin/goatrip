@@ -14,6 +14,7 @@
 :: 14.0 PACKAGE PAGE CSS
 :: 15.0 SIGHTSEEING PAGE CSS
 :: 16.0 ABOUT CSS
+:: 17.0 WATER SPORTS PAGE CSS
 ****************************** */
 
 /* ******************************
@@ -245,8 +246,8 @@ img {
 }
 
 .navbar .navbar-nav .nav-link {
-    padding-right: 1.25rem;
-    padding-left: 1.25rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     -webkit-transition: .3s;
     transition: .3s;
 }
@@ -1065,6 +1066,7 @@ img {
 .facilities ul{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .facilities ul li:not(:last-child){
@@ -1454,3 +1456,121 @@ img {
 .top-about-baloon img{
     max-width: 200px;
 }
+
+/* ******************************
+:: 17.0 WATER SPORTS PAGE CSS
+****************************** */
+.watersport-banner{
+    background-image: url(../img/about-page/watersports-banner.jpg);
+}
+
+.single-pg2{
+    align-items: center;
+    left: 0;
+}
+
+.single-pg2 h2{
+    font-size: 56px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.rooms-area2{
+    margin-top: 40px;
+}
+
+.rooms-area2 h2{
+    margin-bottom: 22px;
+}
+
+.activity-area ul{
+    padding-left: 30px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.activity-area ul li{
+    list-style: disc;
+}
+
+.room-box2{
+    padding: 0;
+    background: #edf2f5;
+    border-radius: 0;
+    margin-top: 40px;
+}
+
+.room-box2 .img img{
+    border-radius: 0;
+}
+
+.room-box2 .details{
+    padding: 10px 20px;
+}
+
+.booking-package{
+    position: relative;
+    background-image: url(../img/about-page/w-sports3.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.bk-water-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    position: relative;
+}
+
+.bk-water-inner p{
+    color: #fff;
+}
+
+.bk-water-inner p span{
+    text-decoration: line-through;
+}
+
+.bk-water-inner h1{
+    color: #F7CE04;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.bk-water-inner span{
+    color: #fff;
+}
+
+.bk-water-inner .bk-btn-style{
+    margin-top: 30px;
+}
+
+.bk-water-inner .bk-btn-style a{
+    color: #fff;
+    background-color: #4BA69D;
+    transition: all .3s ease;
+    font-size: 15px;
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 0;
+    border: 1px solid #4BA69D;
+}
+
+.bk-water-inner .bk-btn-style a:hover{
+    background-color: #fff;
+    color: #4BA69D;
+}
+
+.inner-overlay-water{
+    background-color: #1625164a;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
