@@ -1031,6 +1031,12 @@
         padding: 80px 0 80px !important;
     }
     .booking-package{
-        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .order-m-1{
+        order: 1;
+    }
+    .order-m-2{
+        order: 2;
     }
 }

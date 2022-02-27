@@ -92,11 +92,15 @@
     $('.offer-slider.owl-carousel').owlCarousel({
         loop: true,
         margin: 0,
-        nav: false,
+        nav: true,
         dots: true,
         smartSpeed: 2000,
         autoplay: false,
         autoplayTimeout: 4000,
+        navText: [
+            "<img src='assets/img/icon/light-arrow.png'> Scroll",
+            "<img src='assets/img/icon/light-arrow.png'>"
+        ],
         responsive: {
             0: {
                 items: 1.5
@@ -176,6 +180,10 @@
         smartSpeed: 2000,
         autoplay: false,
         autoplayTimeout: 4000,
+        navText: [
+            "<img src='assets/img/right-black-arrow.png'> Scroll",
+            "<img src='assets/img/right-black-arrow.png'>"
+        ],
         responsive: {
             0: {
                 items: 1
