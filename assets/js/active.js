@@ -171,6 +171,31 @@
         }
     });
 
+    // :: 8.0 Roombox SLIDER ACTIVE CODE
+    $('.roombox-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: false,
+        smartSpeed: 2000,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 2
+            },
+            768: {
+                items: 2
+            },
+            992: {
+                items: 2
+            }
+        }
+    });
+
     // :: 7.0 TESTI SLIDER ACTIVE CODE
     $('.testi-slider.owl-carousel').owlCarousel({
         loop: true,

@@ -1024,6 +1024,9 @@ img {
     height: 460px;
     width: 100%;
 }
+.stay-page{
+    background-image: url(../img/about-page/stay-banner.jpg);
+}
 .single-pg{
     height: 460px;
     display: flex !important;
@@ -1045,6 +1048,10 @@ img {
     font-size: 56px;
     font-weight: 700;
     color: #fff;
+}
+
+.single-pg h1.extra-small{
+    font-size: 45px;
 }
 
 .pg-slider .owl-nav button.owl-prev{
@@ -1183,8 +1190,26 @@ img {
 
 .room-box .details h4{
     font-size: 22px;
-    margin: 16px 0 15px;
+    margin: 16px 0 4px;
     font-weight: 500;
+}
+
+.room-box .details h5{
+    color: #111;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.room-box .details .btn-rooom{
+    margin-bottom: 10px;
+}
+
+.room-box .details .btn-rooom a{
+    color: #41938B;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 16px;
 }
 
 .room-box .details p{
@@ -1203,6 +1228,11 @@ img {
     font-weight: 400;
     font-size: 35px;
     margin-bottom: 0;
+}
+
+.package-area-design2{
+    background: #F9F9F9;
+    padding-top: 100px;
 }
 
 /* sightseeing */
@@ -1255,6 +1285,7 @@ img {
 .package-section{
     border-left: 1px solid #ddd;
     padding-left: 40px;
+    padding-bottom: 30px;
 }
 
 .package-section .head{
@@ -1283,6 +1314,10 @@ img {
     margin-bottom: 80px;
 }
 
+.package-box2{
+    margin-bottom: 20px;
+}
+
 .package-box .img{
     margin-bottom: 20px;
 }
@@ -1303,6 +1338,21 @@ img {
     font-size: 16px;
     font-weight: 400;
     color: #00000099;
+}
+
+.show-btn{
+    margin-top: 40px;
+}
+
+.show-btn a{
+    background: #fff;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
+    padding: 8px 20px;
+    transition: all .3s ease;
+}
+
+.show-btn a:hover{
+    color: #41938B;
 }
 
 /* ******************************
@@ -1609,10 +1659,10 @@ img {
 /* whatsp btn */
 .float{
 	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
+	width:55px;
+	height:55px;
+	bottom:70px;
+	right:10px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
@@ -1623,5 +1673,30 @@ img {
 }
 
 .my-float{
-	margin-top:16px;
+	margin-top:12px;
+}
+
+/* pubs  page */
+.pubs-page{
+    background-image: url(../img/about-page/pubs-banner.jpg);
+}
+
+.clubs-box{
+    margin-top: 40px;
+}
+
+.clubs-box h2{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.clubs-box img{
+    margin-bottom: 20px;
+}
+
+.pub-package{
+    background-image: 
+    url(../img/nyt-clubs/nyt-pubs-right.jpg);
 }
